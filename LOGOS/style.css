@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 3ms; 
+    font-family: 'Gilroy', sans-serif;
+    
+}
+
+header{
+    height: 80px;
+    top: 0px;
+    padding: 0px 70px;
+    background: #403C3B;
+    box-shadow: 0px 30px 60px rgb(34 31 32 / 20%);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Gilroy', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 25px;
+
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+
+margin-left: 50px;
+}
+
+
+.d3 form {
+    display: flex;
+    background: #504B4A;
+    border-radius: 10px;
+
+    
+}
+
+.placeholder {
+
+}
+
+.d3 input, .d3 button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.d3 input {
+  width: 520px;
+  height: 42px;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.d3 button {
+  height: 42px;
+  width: 42px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 10;
+  justify-content: center;
+}
+
+.d3 button:before {
+  font-size: 16px;
+}
+
+.phone{
+  display: flex;
+  margin-right: 300px;
+  
+}
+
+.phone-text{
+  display: block;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.phone-text > .phone1{
+  font-family: 'Gilroy' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #CFCFCF;
+}
+
+.phone-text > .phone2{
+  font-family: 'Gilroy' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 10px;
+  color: #fff;
+}
+
+.phone-text > p{
+  color: #FFFFFF;
+  padding: 1px;
+}
+
+.phone > a > img{
+  margin-right: 10px;
+  padding: 8px;
+  text-align: center;
+  width: 35px;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 25px;
+}
+
+.kou{
+  display: flex;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+  border-radius: 8px;
+  padding: 7px;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+.kou > a{
+  color: #fff;
+  text-decoration: none;
+  margin:7px 5px 7px ;
+  padding-right: 1px;
+}
+.kou > br{
+  content: '';
+  background-color: #ffffff52;
+  width: 1px;
+  margin: 0px 5px 0px;
+}
+
+.koy-kkk{
+  background: #fff;
+  border-radius: 100%;  
+  width: 20px;
+}
+
+
+
+/*Intro------------------------------*/
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 575px;
+  padding-top: 100px;
+  background-image: url(img/Mask\ Group.png);
+  background-size:1710px;
+}
+
+/* .home_block{
+  height: 610px;
+  background: url(./img/Mask\ Group.png) no-repeat;
+  width: 100%;
+} */
+
+.png-intro {
+  margin-top: -200px;
+  margin-left: 100px;
+}
+
+.png-intro2 {
+  margin-top: -216px;
+  margin-left: -5px;
+}
+
+.text-png {
+  margin-left: 220px;
+
+}
+
+
+
+
+
+.link {
+  background: #403C3B;
+
+  /* height: 80px; */
+  
+  top: 0px;
+  padding: 25px 0px;
+  text-align: center;
+  border-bottom: 1px solid #504B4A;
+
+}
+
+.link-2 {
+  color: rgba(255, 255, 255, 0.664); 
+  text-align: center;
+
+  /* margin-left: 80px; */
+  margin: 0 52.5px 0 52.5px ;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  
+ 
+  
+  padding-bottom: 30px; 
+  transition: 0.3s;
+  transition: color 0.3s linear;
+}
+
+.link-2:hover {
+  color: #fff;
+  padding-bottom: 25px;
+  border-bottom: 4px solid #618967;
+  
+  transition: 0.3s;
+  
+}
+
+/*IET часть*/
+
+.eat {
+  color: #fff;
+  /* margin: 50px; */
+  border: 40px solid #403C3B;
+  background: #403C3B;
+
+  border-bottom: 1px solid #504B4A;
+  
+  
+  
+}
+
+.eat:hover {
+  
+
+}
+
+.text-eat {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  border-left: 5px solid #618967;
+  padding: 2px 0 0 15px;
+}
+
+.image-menu {
+  border-radius: 25px 25px 0 0;
+  width: 350px;
+}
+
+.eat-menu {
+  display: inline-block;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  border-radius: 25px;
+  background: #504B4A;
+  margin-bottom: 45px;
+}
+
+.text-p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 5px 10px;
+}
+
+.text-p1 {
+  color: #CFCFCF;
+  margin: 10px 0 5px 10px;
+}
+
+.text-h {
+  margin: 10px;
+}
+
+.kou-2 {
+  
+  display: flex;
+  background: #618967;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  font-size: 15px;
+  margin: 0 10px 10px 0;
+
+}
+
+.kou-2 > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px 10px 0 0;
+
+  transition: color 0.3s linear;
+}
+
+.kou-2:hover {
+  background-color: #72A479;
+  transition: 0.3s linear;
+  
+} 
+
+/*me-menu*/
+
+.me-menu1 {
+  background: #403C3B;
+  color: #fff;
+  padding: 150px 150px 150px 150px;
+
+}
+
+.me-menu {
+  margin-left:26px;
+  background: #211F20;
+  color: #fff;
+  padding: 90px 150px 150px 80px;
+  background-image: url(img/Mask\ Group\ 1.png);
+  display: flex;
+  /* position: absolute; */
+
+}
+
+.banner-menu {
+  margin-right: 210px;
+  
+}
+
+.menu-h {
+  margin-bottom: 20px;
+}
+
+.menu-text {
+  margin-bottom: 20px;
+  margin-right: -300px;
+  color: #ffffffd1;
+}
+
+.menu-button {
+ border: 1px solid #CFCFCF;
+ background: #403C3B;
+ border-radius: 10px;
+ width: 200px;
+ padding: 15px;
+ margin: 40px 0 0 0 ;
+}
+
+.menu-button > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.menu-section {
+  
+    background: #504b4ae3;
+    width: 205px;
+    height: 205px;
+    margin: 20px;
+    padding: 60px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+.menu-button2 {
+  margin: -70px 0 0px 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-section > a{
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.menu-section:hover {
+  background: #211F20; 
+  box-shadow: #403C3B;
+}
+
